@@ -1,5 +1,9 @@
 # pflow
-simple power flow calculation using pandapower
+simple power flow calculation using [pandapower](). 
+
+### Topology 
+
+It would be a load and a power generator of 0.02 MWs connected to the same bus bar, and an external connection to the grid (so essentially,the only modification to the example should be the addition of the power generator).
 
 ### Build
 ```bash
