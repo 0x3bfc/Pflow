@@ -18,6 +18,6 @@ docker run -d -p 8000:8000 pflow
 
 ## APIs
 
-- load [http://127.0.0.1/load](http://127.0.0.1/load)
-- generator [http://127.0.0.1/generator](http://127.0.0.1/generator)
-- List all [http://127.0.0.1/](http://127.0.0.1/)
+- load [http://127.0.0.1:8000/load](http://127.0.0.1:8000/load)
+- generator [http://127.0.0.1:8000/generator](http://127.0.0.1:8000/generator)
+- List all [http://127.0.0.1:8000](http://127.0.0.1:8000)
