@@ -18,6 +18,8 @@ docker run -d -p 8000:8000 pflow
 
 ## APIs
 
-- load [http://127.0.0.1:8000/load](http://127.0.0.1:8000/load)
-- generator [http://127.0.0.1:8000/generator](http://127.0.0.1:8000/generator)
-- List all [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- Load [http://127.0.0.1:8000/load](http://127.0.0.1:8000/load)
+- Generator [http://127.0.0.1:8000/generator](http://127.0.0.1:8000/generator)
+- All [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+You can also, use `/trafo`, `/bus`, `ext_grid`, etc to retrieve the results for each component.
