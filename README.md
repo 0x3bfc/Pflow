@@ -1,13 +1,19 @@
 # pflow
 simple power flow calculation using pandapower
 
-### Install
+### Build
 ```bash
-pip3 install -r requirements.txt
+docker build -t pflow .
 ```
 
-### Docker
-```
-docker run -it pflow:v0.1
+### Run
+
+```bash
+docker run -d -p 8000:8000 pflow
 ```
 
+## APIs
+
+- load [http://127.0.0.1/load](http://127.0.0.1/load)
+- generator [http://127.0.0.1/generator](http://127.0.0.1/generator)
+- List all [http://127.0.0.1/](http://127.0.0.1/)
