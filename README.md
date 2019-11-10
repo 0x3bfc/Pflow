@@ -1,5 +1,5 @@
-# pflow
-simple power flow calculation using [pandapower](). 
+# Pflow
+simple power flow calculation using [pandapower](https://www.pandapower.org/start/). 
 
 ### Topology 
 
