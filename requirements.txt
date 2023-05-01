@@ -1,5 +1,5 @@
 pandapower==2.1.0
-Flask==1.1.1
+Flask==2.3.2
 numba==0.46.0
 colorama==0.3.9
 matplotlib==3.1.1
